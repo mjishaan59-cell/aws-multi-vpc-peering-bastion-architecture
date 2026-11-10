@@ -1,0 +1,25 @@
+# Private SSH keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Terraform state (if added later)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
